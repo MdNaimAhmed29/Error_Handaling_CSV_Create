@@ -1,0 +1,12 @@
+{
+    "Name": "Naim",
+    "Age": 34,
+    "Subject": "CSE",
+    "Group": "Science",
+    "Language": "English",
+    "Titles": [
+        "C",
+        "Python",
+        "Django"
+    ]
+}

@@ -24,8 +24,10 @@ JSON
 
 
 #os.mkdir("new folder")
+os.listdir(".")
 #os.rename("new folder","New Folder")
 #os.rmdir("new folder")
+os.listdir("new folder")
 """
 
 """import csv

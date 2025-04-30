@@ -8,6 +8,7 @@ file rename or delete -> import os
 os.rename()
 CSV file create,read, write
 JSON
+
 #import os
 
 #with open("new folder/demo.text","w") as file:
@@ -23,7 +24,7 @@ JSON
 
 
 
-#os.mkdir("new folder")
+os.mkdir("new folder")
 os.listdir(".")
 #os.rename("new folder","New Folder")
 #os.rmdir("new folder")
@@ -92,3 +93,18 @@ except Exception as Error:
 finally:
     print("Completed....")
 
+#import zipfile
+
+
+#with zipfile.ZipFile("report.zip","w") as myzip:
+    #myzip.write("report.csv")
+    #myzip.write("report.json")
+
+
+#with zipfile.ZipFile("report.zip","r") as myzip:
+    #myzip.extractall()
+    #extracted_file = myzip.namelist()
+
+#import shutil
+
+#shutil.make_archive("new folder", "zip", "new folder")
